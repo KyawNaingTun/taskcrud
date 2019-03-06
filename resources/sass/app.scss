@@ -1,0 +1,42 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//Datetime Picker
+@import '~tempusdominus-bootstrap-4/build/css/tempusdominus-bootstrap-4.css';
+
+//Font Awesome Icons 5.7.2
+// Fontawesome
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/regular.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+
+// Custom
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+.my-form-control{
+  border-left: 3px solid red;
+}
+.my-form-control:focus {
+    border-color: #3490dc;
+    border-left-color:red;
+    box-shadow: none;
+}
+.dropdown-item i.icon {
+    width: 20px;
+}
+@media all and (max-width:480px) {
+    .my-btn {
+        width: 100%;
+        display: block;
+    }
+}
